@@ -12,7 +12,7 @@ export default defineConfig({
       sassVariables: '@/assets/_quasar.variables.scss'
     })
   ],
-  base: '/finance-horizon/',
+  base: '/finance-wise/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
